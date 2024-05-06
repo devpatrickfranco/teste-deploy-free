@@ -1,0 +1,15 @@
+{
+    "versiom": 2,
+    "builds": [
+        {
+            "src": "src/server.ts",
+            "use": "@versel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "src/server.ts"
+        }
+    ]
+}
